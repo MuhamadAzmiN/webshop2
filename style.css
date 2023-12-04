@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Jockey+One&family=Noto+Sans+JP:wght@100&family=Poppins:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+     font-family: 'Poppins', sans-serif; ;
+
+    }
+    .semua {
+        display: flex;
+    }
+    .nav ul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+    font-size: 20px;
+    margin: 10px;
+    
+    
+
+}
+.judul h1 {
+    margin-left: 800px;
+    color: white;
+}
+.nav {
+    margin-left: 100px;
+
+}
+.semua {
+    padding: 10px;
+}
+header {
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    /* margin-left: 120px; */
+    width: 1300px;
+    margin-left: 70px;
+    border: 1px solid black;
+    background-color: rgb(35, 35, 35);
+    height: 70px;
+    position: fixed;
+    
+}
+section {
+    height: 1000PX;
+    display: flex;
+    
+}
+
+.section-img {
+    width: 20px ;
+    margin-left: 250px;
+}
+.section-text .fa-arrow-right {
+    margin-top: 37px;position: absolute;
+}
+
+.section-text {
+    font-size: 40px;
+    padding: 100px;
+    
+}
+.section-text button {
+    border: none;
+    width: 150px;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 20px;
+}
+.section-img img {
+    margin-left: -200px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    margin-top: 130px;
+    width: 400px;
+}
+.img-bawah img {
+    border-radius: 50%;
+    margin-top: 100px;
+    width: 400px;
+
+}
+.services {
+    height: 800px;
+}
+.service-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+
+}
+.services-text {
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 100px;
+}
+.service-img img {
+    width: 200px;
+    
+}
+.service-img h1{
+    display: block;
+    font-size: 15px;
+}
+.img1 {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between  ;
+    
+    
+}
+.img2 {
+     display: flex;
+    
+    align-items: center;
+    justify-content: space-between  ;
+}
+.img3 {
+     display: flex;
+    
+    align-items: center;
+    justify-content: space-between  ;
+}
+.halaman {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 100px;
+   
+    
+}
+.halaman img {
+    width: 100%;
+    overflow: hidden;
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px ; */
+}
+.hal1 {
+    background-color: rgb(197, 197, 197);
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.hal2 {
+    background-color: rgb(197, 197, 197);
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.hal3 {
+    background-color: rgb(197, 197, 197);
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.hal4 {
+    background-color: rgb(197, 197, 197);
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+.text-hal {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 40px;
+    padding-top: 400px;
+}
+.halaman {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: -20px;
+    
+}
+.beli {
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.bel {
+    display: flex;
+    gap: 30px;
+}
+
+/* .bel img {
+    width: 500px;
+} */
+.bel span {
+    font-size: 20px;
+    font-weight: 100
+}
+.bel h1 {
+    margin-top: 100px;
+}
+.textbeli button {
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    text-indent: -20px;
+}
+.fa-arrow-right {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+.gambar1 {
+    width: 350px;
+}
+.gambar2 {
+    width: 350px;
+}
+footer {
+    background-color: rgb(45, 44, 44);
+    height: 300px;
+    margin-top: 400px;
+    width: 100%;
+}
+.kolom1 span {
+    color: aqua;
+}
+.footer-semua {
+    display: flex;
+    gap: 100px;
+    padding: 35px;
+}
+.copy h1 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+@media (max-width: 680px) {
+    /* .halaman {
+    flex-wrap: wrap;
+    display: flex;
+    
+} */
+.hal1 {
+    background-color: rgb(197, 197, 197);
+    width: 130px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.hal2 {
+    background-color: rgb(197, 197, 197);
+    width: 130px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.hal3 {
+    background-color: rgb(197, 197, 197);
+    width: 130px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.hal4 {
+    background-color: rgb(197, 197, 197);
+    width: 130px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+}
