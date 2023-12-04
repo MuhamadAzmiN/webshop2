@@ -1,0 +1,215 @@
+@media (max-width: 680px) {
+     .halaman {
+    flex-wrap: wrap;
+    display: flex;
+    
+} 
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+     margin-left: 20px;
+     width: 350px;
+}
+.semua {
+    display: block;
+}
+.nav {
+    margin-left: 10px;
+    
+
+}
+.nav ul li {
+    font-size: 15px;
+}
+.judul h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 240px;
+    margin-top: -44px
+}
+/* section {
+    height: 1000PX;
+    display: block;
+    
+} */
+.img-bawah img {
+    border-top-right-radius: 50px ;
+    border-radius: 0px;
+    width: 300px;
+    margin-left: 40px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.section-img {
+    margin-left: 90px;
+    
+}
+.section-text .fa-arrow-right {
+    margin-top: 20px;position: absolute;
+}
+
+.section-text {
+    font-size: 23px;
+    padding: 10px ;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 20px;
+    
+}
+.section-text button {
+    border: none;
+    width: 150px;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 20px;
+}
+.section-img img {
+    width: 200px;
+    display: none;
+
+}
+.service-img {
+    display: block;
+    margin-left: 40px;
+
+}
+.services-text {
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 20px;
+}
+.services-text h1{
+    display: block;
+    font-size: 20px;
+}
+.services-text p {
+    font-size: 15px;
+}
+.service-img img {
+    width: 150px;
+    margin-right: 10px;
+    
+}
+.text-hal {
+    font-size: 33px;
+}
+/* .hal1 {
+    background-color: rgb(197, 197, 197);
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.hal2 {
+    background-color: rgb(197, 197, 197);
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.hal3 {
+    background-color: rgb(197, 197, 197);
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.hal4 {
+    background-color: rgb(197, 197, 197);
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+} */
+.beli {
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.bel {
+    display: block;
+}
+/* .bel img {
+    width: 500px;
+} */
+.bel span {
+    font-size: 20px;
+    font-weight: 100
+}
+.bel h1 {
+    margin-top: 100px;
+}
+.textbeli button {
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    text-indent: -20px;
+    margin-top: 10px;
+}
+.fa-arrow-right {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+.gambar1 img {
+    width: 300px;
+    
+}
+.gambar2 img {
+    width: 300px;
+    margin-top: 20px;
+}
+footer {
+    /* display: none; */
+    margin-top: 900px;
+}
+.kolom1 h1 {
+    font-size: 15px;
+}
+.kolom1 p {
+    font-size: 10px;
+    
+}
+.footer-semua {
+    padding: 35px;
+    gap: 20px;
+}
+.footer-semua {
+    display: block;
+    
+}
+.icons-footer {
+     display: block;
+    margin-top: 10px;
+    gap: 5px;
+}
+.copy h1 {
+    font-size: 10px;
+    margin-top: 20px;
+}
+.pembungkus {
+    display: flex;
+    gap: 80px;
+}
+.pembungkus h1{
+    font-size: 12px;
+}
+.pembungkus p {
+    font-size: 12px;
+}
+.pembungkus li {
+    font-size: 12px;
+}
+.hel {
+    font-size: 17px;
+}
+
+
+}
