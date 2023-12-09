@@ -233,6 +233,10 @@ footer {
     gap: 100px;
     padding: 35px;
 }
+.pembungkus {
+    display: flex;
+    gap: 200px;
+}
 .copy h1 {
     font-size: 20px;
     margin-top: 20px;
